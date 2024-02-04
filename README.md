@@ -20,6 +20,8 @@ A simple and interactive Tic Tac Toe game built with HTML, CSS, and JavaScript.
 
 ## Demo
 
+View the live demo : https://kx56.github.io/Tic-Tac-Toe
+
 ![Tic Tac Toe Demo](Tic-Tac-Toe_1.png)
 
 
