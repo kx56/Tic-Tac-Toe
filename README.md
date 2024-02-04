@@ -22,6 +22,7 @@ A simple and interactive Tic Tac Toe game built with HTML, CSS, and JavaScript.
 
 ![Tic Tac Toe Demo](Tic-Tac-Toe_1.png)
 
+
 ## Getting Started
 
 To get started, simply clone the repository and open the `index.html` file in your browser.
@@ -29,8 +30,10 @@ To get started, simply clone the repository and open the `index.html` file in yo
 ```bash
 git clone https://github.com/kx56/tic-tac-toe.git
 cd tic-tac-toe
+```
 
 ## How to Play
+
 Click on the game board to place your 'O' or 'X'.
 Try to get three in a row horizontally, vertically, or diagonally.
 The game will notify you of the winner or a draw.
