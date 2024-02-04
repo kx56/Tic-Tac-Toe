@@ -17,10 +17,11 @@ const winPattern = [
   [6, 7, 8],
 ];
 
-const reserGame = () => {
+const resetGame = () => {
   turnO = true;
   enableBoxs();
   msgCont.classList.add("hide");
+  count = 0;
 };
 
 boxes.forEach((box) => {
@@ -36,8 +37,16 @@ boxes.forEach((box) => {
       turnO = true;
     }
     box.disabled = true;
+    // checkWinner();
+    count++;
 
-    checkWinner();
+    let isWinner = checkWinner();
+
+    console.log(count);
+    if (count == 9 && !isWinner) {
+      console.log("Draw");
+      showDraw();
+    }
   });
 });
 
@@ -59,6 +68,13 @@ const showWinner = (winner) => {
   disableBoxs();
 };
 
+const showDraw = (draw) => {
+  msg.innerText = `Draw Game. Please, Try Again`;
+  msgCont.classList.remove("hide");
+  disableBoxs();
+};
+
+let count = 0;
 let checkWinner = () => {
   for (let pattern of winPattern) {
     let pos1val = boxes[pattern[0]].innerText;
@@ -69,10 +85,11 @@ let checkWinner = () => {
       if (pos1val === pos2val && pos2val === pos3val) {
         console.log(pos1val, "You are Winner.");
         showWinner(pos1val);
+        return true;
       }
     }
   }
 };
 
-newBtn.addEventListener("click", reserGame);
-resetBtn.addEventListener("click", reserGame);
+newBtn.addEventListener("click", resetGame);
+resetBtn.addEventListener("click", resetGame);
