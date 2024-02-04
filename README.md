@@ -34,15 +34,15 @@ cd tic-tac-toe
 
 ## How to Play
 
-Click on the game board to place your 'O' or 'X'.
-Try to get three in a row horizontally, vertically, or diagonally.
-The game will notify you of the winner or a draw.
+- Click on the game board to place your 'O' or 'X'.
+- Try to get three in a row horizontally, vertically, or diagonally.
+- The game will notify you of the winner or a draw.
 
 ## Contributing
 Contributions are welcome! If you'd like to contribute to the project, please follow these steps:
 
-Fork the repository.
-Create a new branch: git checkout -b feature/new-feature.
-Make your changes and commit them: git commit -m 'Add a new feature'.
-Push to the branch: git push origin feature/new-feature.
-Submit a pull request.
+- Fork the repository.
+- Create a new branch: git checkout -b feature/new-feature.
+- Make your changes and commit them: git commit -m 'Add a new feature'.
+- Push to the branch: git push origin feature/new-feature.
+- Submit a pull request.
