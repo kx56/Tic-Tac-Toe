@@ -28,5 +28,5 @@ A simple and interactive Tic Tac Toe game built with HTML, CSS, and JavaScript.
 To get started, simply clone the repository and open the `index.html` file in your browser.
 
 ```bash
-git clone https://github.com/your-username/tic-tac-toe.git
+git clone https://github.com/kx56/tic-tac-toe.git
 cd tic-tac-toe
